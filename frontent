@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Algorithm Validation Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Algorithm Validation Platform</h1>
+<p>Public demo showcasing algorithm-based validation logic</p>
+
+<select id="algo">
+  <option value="penalty">Shop Closing Penalty</option>
+  <option value="happiness">Max Happiness</option>
+</select>
+
+<textarea id="input" rows="10">
+{
+  "customers": "YYNYNNY"
+}
+</textarea>
+
+<button onclick="run()">Run</button>
+
+<h3>Response</h3>
+<pre id="output"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>
